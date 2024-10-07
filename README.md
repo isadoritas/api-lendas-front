@@ -7,7 +7,7 @@ Esta aplicação tem como objetivo criar e consumir uma **API de Lendas Urbanas*
 ### Funcionalidades
 
 1. **API de Lendas Urbanas**: 
-   - A API permite **listar**, **criar**, **editar** e **remover** lendas urbanas.
+   - A API permite **listar**, **criar** e **remover** lendas urbanas.
    - Cada lenda possui detalhes como **nome**, **descrição**, **localidade** e **origem**.
 
 2. **Site de Cadastro**:
@@ -23,7 +23,16 @@ Esta aplicação tem como objetivo criar e consumir uma **API de Lendas Urbanas*
   
 ### Como Usar
 
-1. **Clone o repositório**:
+1. **Clone o repositório front**:
    ```bash
-   git clone https://github.com/seu-usuario/lendas-urbanas-api.git
-   cd lendas-urbanas-api
+   git clone https://github.com/isadoritas/api-lendas-front
+   cd api-lendas-front
+   npm run dev
+
+2. **Clone o repositório back**:
+   ```bash
+   git clone https://github.com/isadoritas/api-lendas
+   cd api-lendas
+   node --watch server
+   entre na porta onde o sevidor está sendo rodado (localhost)
+
